@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 int main() {
-	int a, b, c, sum, ac, bc;
+	int a, b, c, x, ac, bc;
 	cout << "Введите значения точек: " << endl;
 	cout << "a: " << endl;
 	cin >> a;
@@ -10,10 +10,10 @@ int main() {
 	cout << "c: " << endl;
 	cin >> c;
 	ac = abs(c - a);
-	bc = abs(c - b);
-		sum = ac + bc;
+	bc = abs(b - c);
+		x = ac * bc;
 	cout << "Отрезок ас равен: " << ac << endl;
 	cout << "Отрезок bс равен: " << bc << endl;
-	cout << "Сумма отрезков равна: " << sum << endl;
+	cout << "Произведение отрезков равно: " << x << endl;
 	return 0;
 }
