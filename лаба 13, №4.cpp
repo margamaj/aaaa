@@ -10,7 +10,7 @@ int main()
     cin>>a;
     b = a;
     c = 1;
-    for (i = 1; i <= n; i = i + 1) {
+    for (i = 1; i <= n; i++) {
         c = c + a;
         a = a * b;
     }
