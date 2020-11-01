@@ -5,12 +5,12 @@ int main()
     int i, n;
     cout<<"Введите число n: ";
     cin>>n;
-    int arr[n];
+    int a[n];
     for (i = 1; i <= n; i++) {
-        arr[i]=i;
+        a[i]=i;
     }
     cout<<"Элементы в данном порядке: ";
-    cout<<arr[1]<<" "<<arr[n]<<" "<<arr[2]<<" ";
-    cout<<arr[n-1]<<" "<<arr[3]<<" "<<arr[n-2];
+    cout<<a[1]<<" "<<a[n]<<" "<<a[2]<<" ";
+    cout<<a[n-1]<<" "<<a[3]<<" "<<a[n-2];
     return 0;
 }
